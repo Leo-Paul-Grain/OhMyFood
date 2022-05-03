@@ -96,18 +96,19 @@ header img {
   box-shadow: 0.2em 0.2em 0.6em #d4d4d4, -0.2em 0em 0.6em #d4d4d4;
   margin: 2em 2em;
   padding: 1em;
-  min-width: 650px;
+  max-width: 900px;
+  position: relative;
+}
+.tuto__etapes__detail i {
+  line-height: 128px;
+  font-size: 3em;
+  color: #5b5b5b;
 }
 .tuto__etapes__detail__texte {
   font-size: 2.5em;
   margin-right: 40px;
   width: 75%;
   text-align: center;
-}
-.tuto__etapes__detail i {
-  line-height: 128px;
-  font-size: 3em;
-  color: #5b5b5b;
 }
 .tuto__etapes__detail__chiffre {
   font-size: 2.5em;
@@ -117,8 +118,11 @@ header img {
   width: 1.2em;
   height: 1.2em;
   text-align: center;
-  position: relative;
-  left: -9%;
+  position: absolute;
+  left: -3%;
+}
+.tuto__etapes__detail:hover {
+  background-color: #f5edff;
 }
 
 /*# sourceMappingURL=style.css.map */
