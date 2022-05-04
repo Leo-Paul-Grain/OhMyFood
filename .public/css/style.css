@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
 * {
@@ -93,7 +94,7 @@ header img {
   justify-content: center;
   background-color: #f6f6f6;
   border-radius: 40px;
-  box-shadow: 0.2em 0.2em 0.6em #d4d4d4, -0.2em 0em 0.6em #d4d4d4;
+  box-shadow: 0em 0.2em 0.6em #d4d4d4;
   margin: 2em 2em;
   padding: 1em;
   max-width: 900px;
@@ -123,6 +124,99 @@ header img {
 }
 .tuto__etapes__detail:hover {
   background-color: #f5edff;
+}
+
+/**Présentation des restaurants**/
+.restaurants {
+  background-color: #f6f6f6;
+}
+.restaurants a {
+  text-decoration: none;
+  color: black;
+}
+.restaurants h2 {
+  font-size: 4em;
+  margin: 1em 0em 0.5em 0.9em;
+  padding-top: 1.5em;
+}
+.restaurants__align {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5em;
+}
+.restaurants__card {
+  width: 90%;
+  background-color: white;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  box-shadow: 0em 0.2em 0.6em #d4d4d4;
+}
+.restaurants__card__image {
+  height: 450px;
+  display: flex;
+}
+.restaurants__card__image img {
+  width: 100%;
+  align-items: center;
+  object-fit: cover;
+  border-radius: 30px 30px 0px 0px;
+}
+.restaurants__card__body {
+  display: flex;
+  justify-content: space-between;
+}
+.restaurants__card__body i {
+  font-size: 4em;
+  position: relative;
+  top: 50px;
+  right: 50px;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.restaurants__card__body i:hover {
+  color: #9356DC;
+  text-shadow: 0 10px #FF79DA;
+}
+.restaurants__card__text {
+  margin: 1em 2em;
+}
+.restaurants__card__text h3 {
+  font-size: 2.8em;
+  margin: 0.3em 0em;
+}
+.restaurants__card__text p {
+  font-size: 2.5em;
+  margin: 0.1em 0em;
+}
+
+/**Footer**/
+footer {
+  background-color: #383434;
+  color: #f6f6f6;
+  font-size: 2.4em;
+  padding-bottom: 2em;
+}
+footer img {
+  margin: 1em 0em 0.3em 1.8em;
+  width: 250px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.8em;
+}
+.footer-list p {
+  margin: 0.4em 0em;
+}
+.footer-list__with-icon {
+  display: flex;
+  align-items: center;
+}
+.footer-list__with-icon i {
+  margin-right: 0.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
