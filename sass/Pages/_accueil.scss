@@ -55,6 +55,9 @@ header img {
     border: none;
     box-shadow: inset -1.5em -1.5em 3em $color-primary, 0.1em 0.1em 0.2em #c5c5c5, -0.1em 0em 0.2em #c5c5c5;
     margin-bottom: 3.5em;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 /**Partie tutoriel**/
