@@ -1,0 +1,27 @@
+/**Footer**/
+footer {
+    background-color: #383434;
+    color: #f6f6f6;
+    font-size: 2.4em;
+    padding-bottom: 2em;
+    & img {
+        margin: 1em 0em 0.3em 1.8em;
+        width: 250px;
+    }
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.8em;
+    & p {
+        margin: 0.4em 0em;
+    }
+    &__with-icon {
+        display: flex;
+        align-items: center;
+        & i {
+            margin-right: 0.5em;
+        }
+    }
+}
