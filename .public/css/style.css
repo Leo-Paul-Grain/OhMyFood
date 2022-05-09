@@ -45,6 +45,23 @@ footer img {
   margin-right: 0.5em;
 }
 
+.heart-icon {
+  font-size: 4em;
+  position: relative;
+  top: 50px;
+  right: 50px;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.heart-icon:hover {
+  text-shadow: none;
+  background: linear-gradient(to bottom, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 40%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .menu_image {
   width: 100%;
 }
@@ -218,22 +235,6 @@ header img {
 .restaurants__card__body {
   display: flex;
   justify-content: space-between;
-}
-.restaurants__card__body i {
-  font-size: 4em;
-  position: relative;
-  top: 50px;
-  right: 50px;
-  color: white;
-  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-}
-.restaurants__card__body i:hover {
-  text-shadow: none;
-  background: linear-gradient(to bottom, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 40%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .restaurants__card__text {
   margin: 1em 2em;
