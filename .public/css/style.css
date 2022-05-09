@@ -52,6 +52,17 @@ footer img {
   width: 100%;
 }
 
+.menu_logo {
+  display: flex;
+}
+.menu_logo i {
+  font-size: 3em;
+  position: relative;
+  left: 80px;
+  top: 20px;
+  color: black;
+}
+
 header img {
   display: block;
   margin-left: auto;

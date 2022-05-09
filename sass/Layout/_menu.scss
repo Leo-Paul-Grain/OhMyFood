@@ -4,3 +4,14 @@
         width: 100%;
     }
 }
+
+.menu_logo {
+    display: flex;
+    & i {
+        font-size: 3em;
+        position: relative;
+        left: 80px;
+        top: 20px;
+        color: black;
+    }
+}
