@@ -46,20 +46,6 @@ header img {
     }
 }
 
-.bouton_recherche {
-    font-size: 2.5em;
-    color: #ffff;
-    background-color: $color-secondary;
-    padding: 1em 1em;
-    border-radius: 80px;
-    border: none;
-    box-shadow: inset -1.5em -1.5em 3em $color-primary, 0.1em 0.1em 0.2em #c5c5c5, -0.1em 0em 0.2em #c5c5c5;
-    margin-bottom: 3.5em;
-    &:hover {
-        cursor: pointer;
-    }
-}
-
 /**Partie tutoriel**/
 
 .tuto {
