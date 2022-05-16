@@ -90,8 +90,8 @@
     &__price {
         display: flex;
         align-items: flex-end;
-        transform: translate(150px, 0px);
-        transition: transform 1000ms;
+        margin-right: -9.5em;
+        transition-duration: 500ms;
         & p {
             font-size: 2.5em;
             font-weight: bold;
@@ -119,7 +119,7 @@
     }
 }
 .dishes-card:hover > .dishes-card__price {
-    transform: translate(0,0);
+    margin-right: 0em;
 }
 
 .dishes-card:hover > .dishes-card__price i {
