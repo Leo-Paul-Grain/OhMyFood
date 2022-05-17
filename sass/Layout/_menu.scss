@@ -69,6 +69,14 @@
     display: flex;
     justify-content: space-between;
     overflow: hidden;
+    opacity: 0;
+    transform: translateY(2em);
+    animation: dishes-appearance 500ms forwards;
+    @for $i from 1 through $num-dishes {
+        &--#{$i} {
+            animation-delay: $anim-delay * $i;
+        }  
+    }
     &__text {
         overflow: hidden;
     }
