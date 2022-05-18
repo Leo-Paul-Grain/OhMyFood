@@ -49,14 +49,14 @@ footer__link {
   flex-direction: column;
   margin-left: 1.8em;
 }
-.footer-list a {
-  margin: 0.4em 0em;
-  text-decoration: none;
-  color: #f6f6f6;
-}
 .footer-list__with-icon {
   display: flex;
   align-items: center;
+}
+.footer-list__with-icon a {
+  margin: 0.4em 0em;
+  text-decoration: none;
+  color: #f6f6f6;
 }
 .footer-list__with-icon i {
   margin-right: 0.5em;
