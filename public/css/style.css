@@ -149,7 +149,7 @@ footer__link {
   margin: 30px 0px 0px 20px;
 }
 .menu_dishes__details {
-  margin-bottom: -120px;
+  margin-bottom: -60px;
 }
 .menu_dishes__details__title {
   width: 92%;
@@ -166,8 +166,18 @@ footer__link {
   width: 13%;
   border-bottom: 3px solid #99E2D0;
 }
+@media screen and (min-width: 900px) {
+  .menu_dishes__details__title:before {
+    left: 45%;
+  }
+}
 .menu_dishes__details__title p {
   font-size: 1.3em;
+}
+@media screen and (min-width: 900px) {
+  .menu_dishes__details__title p {
+    text-align: center;
+  }
 }
 
 .dishes-card {
@@ -282,7 +292,7 @@ header img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  width: 40%;
+  width: 250px;
 }
 
 /*Recherche par ville*/
@@ -342,6 +352,11 @@ header img {
   flex-direction: column;
   align-items: center;
 }
+@media screen and (min-width: 1020px) {
+  .tuto__etapes {
+    flex-direction: row;
+  }
+}
 .tuto__etapes__detail {
   display: flex;
   justify-content: center;
@@ -352,6 +367,7 @@ header img {
   padding: 0.5em;
   width: 95%;
   position: relative;
+  max-width: 500px;
 }
 .tuto__etapes__detail i {
   line-height: 62px;
@@ -399,6 +415,12 @@ header img {
   display: flex;
   flex-direction: column;
 }
+@media screen and (min-width: 1020px) {
+  .restaurants__align {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
 .restaurants__card {
   width: 90%;
   background-color: white;
@@ -407,6 +429,7 @@ header img {
   margin-right: auto;
   margin-bottom: 3em;
   box-shadow: 0em 0.2em 0.6em #d4d4d4;
+  max-width: 400px;
 }
 .restaurants__card__image {
   height: 200px;
