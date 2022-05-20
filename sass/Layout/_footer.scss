@@ -2,11 +2,11 @@
 footer {
     background-color: #383434;
     color: #f6f6f6;
-    font-size: 2.4em;
+    font-size: 1em;
     padding-bottom: 2em;
     & img {
-        margin: 1em 0em 0.3em 1.8em;
-        width: 250px;
+        margin: 1em 0em 0.3em 1.5em;
+        width: 120px;
     }
     &__link {
         margin: 0.4em 0em;
@@ -18,7 +18,7 @@ footer {
 .footer-list {
     display: flex;
     flex-direction: column;
-    margin-left: 1.8em;
+    margin-left: 1.5em;
     & a {
         margin: 0.4em 0em;
         text-decoration: none;

@@ -4,4 +4,4 @@ $color-tertiary: #99E2D0;
 
 $num-dishes: 10;
 $anim-duration: 1500ms;
-$anim-delay: $anim-duration / $num-dishes;
+$anim-delay: calc($anim-duration / $num-dishes);
