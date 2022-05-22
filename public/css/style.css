@@ -351,6 +351,7 @@ header img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 }
 @media screen and (min-width: 1020px) {
   .tuto__etapes {
@@ -405,6 +406,7 @@ header img {
 .restaurants a {
   text-decoration: none;
   color: black;
+  position: relative;
 }
 .restaurants h2 {
   font-size: 1.8em;
@@ -455,6 +457,20 @@ header img {
 .restaurants__card__text p {
   font-size: 1.2em;
   margin: 0.1em 0em;
+}
+
+.new {
+  position: absolute;
+  color: #008766;
+  background-color: #99e2d0;
+  right: 15px;
+  top: 15px;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 0em 0.7em;
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+  border-radius: 3px;
 }
 
 /*# sourceMappingURL=style.css.map */
