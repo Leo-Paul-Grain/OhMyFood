@@ -6,11 +6,11 @@
     border: none;
     box-shadow: 0.1em 0.1em 0.2em #c5c5c5, -0.1em 0em 0.2em #c5c5c5;
     opacity: 1;
-    transition: all 1000ms;
+    transition: opacity 1000ms, box-shadow 500ms;
     &:hover {
         cursor: pointer;
         opacity: 0.8;
-        box-shadow: 0.3em 0.3em 0.3em #c5c5c5, -0.3em 0em 0.3em #c5c5c5;
+        box-shadow: 0.2em 0.2em 0.1em #c5c5c5, -0.2em 0em 0.1em #c5c5c5;
     }
     &--search {
         margin-bottom: 3.5em;

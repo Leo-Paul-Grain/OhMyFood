@@ -8,3 +8,12 @@
         transform: translateY(0em);
     }
 }
+
+@keyframes fill-heart {
+    from {
+        opacity: 10%;
+    }
+    to {
+        opacity: 100%;
+    }
+}

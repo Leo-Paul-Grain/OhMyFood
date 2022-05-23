@@ -13,6 +13,7 @@
         color: #f6f6f6;
     }
     &:hover {
+        animation: fill-heart 1000ms;
         text-shadow: none;
         background: linear-gradient(to bottom, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 40%);
         -webkit-background-clip: text;
