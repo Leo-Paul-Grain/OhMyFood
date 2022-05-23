@@ -15,11 +15,11 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 9999;
     width: 100%;
     height: 100%;
-    z-index: 100;
     background-color: #ffff;
-    animation: hide-loader 200ms 3000ms forwards;
+    animation: hide-loader 0ms 3000ms forwards;
 }
 
 .loader {
