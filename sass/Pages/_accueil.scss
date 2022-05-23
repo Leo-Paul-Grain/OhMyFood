@@ -6,6 +6,49 @@ header img {
     width: 250px;
 }
 
+/*Loader*/
+
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: #ffff;
+    animation: hide-loader 200ms 3000ms forwards;
+}
+
+.loader {
+    width: $loader-size*6;
+    height: $loader-size;
+    display: flex;
+    justify-content: space-evenly;
+    &__circle {
+        height: 100%;
+        width: $loader-size;
+        border-radius: 50%;
+        animation: loader 600ms backwards ease-in-out;
+        animation-direction: alternate;
+        animation-iteration-count: 3;
+        &--1 {
+            background-color: $color-primary;
+            animation-delay: 200ms;
+        }
+        &--2 {
+            background-color: $color-secondary;
+            animation-delay: 400ms;
+        }
+        &--3 {
+            background-color: $color-tertiary;
+            animation-delay: 600ms;
+        }
+    }
+}
+
 /*Recherche par ville*/
 .recherche {
     background-color: #eaeaea;

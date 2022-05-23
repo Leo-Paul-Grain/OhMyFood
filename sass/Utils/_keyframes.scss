@@ -17,3 +17,21 @@
         opacity: 100%;
     }
 }
+
+@keyframes loader {
+    from {
+        transform: scale(50%);
+    }
+    to {
+        transform: scale(100%);
+    }
+}
+
+@keyframes hide-loader {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
