@@ -1,12 +1,16 @@
 .button {
     font-size: 1.2em;
     color: #ffff;
-    background-color: $color-secondary;
+    background: linear-gradient(to top,rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
     border-radius: 80px;
     border: none;
-    box-shadow: inset -1.5em -1.5em 3em $color-primary, 0.1em 0.1em 0.2em #c5c5c5, -0.1em 0em 0.2em #c5c5c5;
+    box-shadow: 0.1em 0.1em 0.2em #c5c5c5, -0.1em 0em 0.2em #c5c5c5;
+    opacity: 1;
+    transition: all 1000ms;
     &:hover {
         cursor: pointer;
+        opacity: 0.8;
+        box-shadow: 0.3em 0.3em 0.3em #c5c5c5, -0.3em 0em 0.3em #c5c5c5;
     }
     &--search {
         margin-bottom: 3.5em;
